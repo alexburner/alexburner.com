@@ -1,0 +1,228 @@
+/* 
+columns of same height styles 
+via http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+*/
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}
+
+/* vertical alignment styles */
+.col-top {
+    vertical-align:top;
+}
+.col-middle {
+    vertical-align:middle;
+}
+.col-bottom {
+    vertical-align:bottom;
+}
+
+/* fix firefox responsive images */
+.img-responsive {
+    width: 100%
+}
+
+
+
+/*
+typography hacks via Medium
+ */
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: "liga" on;
+}
+
+
+
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #FFF;
+}
+
+
+.jumbotron {
+	margin: 0;
+	padding-top: 30px;
+}
+.jumbotron.hello-nice {
+	padding-top: 50px;
+	background-color: #333;
+	color: #CCC;
+}
+.jumbotron.hello-nice h1,
+.jumbotron.hello-nice h2,
+.jumbotron.hello-nice h3,
+.jumbotron.hello-nice h4,
+.jumbotron.hello-nice h5,
+.jumbotron.hello-nice h6 {
+	color: #EEE;
+}
+.jumbotron.exp-lvls {
+	padding-top: 35px;
+	padding-bottom: 70px;
+	background-color: #555;
+	color: #DDD;
+}
+.jumbotron.exp-lvls h1,
+.jumbotron.exp-lvls h2,
+.jumbotron.exp-lvls h3,
+.jumbotron.exp-lvls h4,
+.jumbotron.exp-lvls h5,
+.jumbotron.exp-lvls h6 {
+	color: #EEE;
+}
+
+
+.exp-lvls h2 {
+	margin-bottom: 30px;
+}
+.exp-lvls .title {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 17.85px;
+	font-weight: 200;
+	text-align: left;
+}
+@media (min-width: 768px) {
+	.exp-lvls .title {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: right;
+	}
+}
+.exp-lvls .exp .title {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+.exp {
+	position: relative;
+	z-index: 5;
+	padding: 10px 0 11px;
+	font-size: 16px;
+	color: #333;
+}
+.exp-color {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	background-color: #EEE;
+}
+.exp-heavy {
+	background-color: #5bc0de;
+}
+.exp-regular {
+	background-color: #69c669;
+}
+.exp-light {
+	background-color: #f0ad4e;
+}
+.exp-desired {
+	background-color: #d9534f;
+}
+
+
+.work-samples {
+	padding-top: 45px;
+	padding-bottom: 200px;
+}
+.work-sample {
+	margin-top: 45px;
+}
+.work-sample .screenshot {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.work-sample .description {
+	padding-bottom: 10px;
+}
+.work-sample .img-responsive {
+	width: 100%;
+}
+.work-sample h1,
+.work-sample h2,
+.work-sample h3,
+.work-sample h4,
+.work-sample h5,
+.work-sample h6 {
+	margin-top: 15px;
+}
+.work-sample h1 > small,
+.work-sample h2 > small,
+.work-sample h3 > small,
+.work-sample h4 > small,
+.work-sample h5 > small,
+.work-sample h6 > small {
+	text-transform: uppercase;
+}
+.work-sample h4 {
+	margin-bottom: 5px;
+}
+.work-sample p {
+	margin: 0;
+}
+.work-sample li {
+	font-size: 16px;
+}

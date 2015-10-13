@@ -1,0 +1,17 @@
+body {
+	padding: 20px 20px 60px;
+}
+
+/*
+typography hacks via Medium
+ */
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-font-feature-settings: "liga" on;
+}
