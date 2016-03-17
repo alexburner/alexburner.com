@@ -1,5 +1,9 @@
-/* 
-columns of same height styles 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*
+columns of same height styles
 via http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
 */
 .container-xs-height {
@@ -216,12 +220,16 @@ hr {
 .work-sample h5 > small,
 .work-sample h6 > small {
 	text-transform: uppercase;
+	white-space: nowrap;
 }
 .work-sample h4 {
 	margin-bottom: 5px;
 }
 .work-sample p {
 	margin: 0;
+}
+.work-sample p + p {
+    margin-top: 10px;
 }
 .work-sample li {
 	font-size: 16px;
