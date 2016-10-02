@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alex Burner - Portfolio</title>
+	<meta name="author" content="Alex Burner">
+	<meta name="description" content="Hello, these are some samples of work I've done.">
+	<link rel="icon" type="image/ico" href="http://alexburner.com/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-btn-2.3.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+
+
+<!--
+
+	TODO
+
+	- resume button upper right corner
+
+	- sample
+		- meta
+			- when did
+			- what made
+			- who for
+		- images
+		- text
+			- people involved
+			- technology involved
+			- description of work involved
+			- mistakes/lessons involved
+	
+			- brief
+			- people
+			- technology
+			- process
+			- lessons
+
+
+
+
+
+			! pre web
+			- vida pura
+			- rainier 1
+
+			> then i learned
+
+
+
+			basic website
+			self -> rainier productions
+			(?) november 2009 - march 2010
+
+				The Rainier Productions website was my first professional web project, and my inspiration for moving into the web dev industry. A friend from NYC had a small start up idea that he wanted a site for, and I had been doing graphic design. I designed the branding and UI of the site, but I didn't have the technical chops to turn Photoshop layers into HTML&amp;CSS. We had to hire another guy to cut up the images and upload them.
+
+				A few months later, after grinding through online tutorials and taking a class at a local community college, I had what I needed to rewrite his site so it was real HTML instead of a bunch of sliced-up JPGs (shudder).
+
+				Visit the site (http://rainierproduction.com/)
+
+
+			wordpress theme
+			self -> a year at the table
+			(?) springish
+
+			basic website
+			bkwld -> elastic suite
+			(?) june 2010 - july 2010
+
+				The elastic suite website was my first major project while I was interning at BKWLD. Their company had a brocure/informational website that was split across a home page and a few subpages. They wanted to bring it all together into a single scroller, inspired by the site for the Kaleidescope app (http://www.kaleidoscopeapp.com/) (which, as of me writing this right now, looks pretty much the same as it did).
+
+				I was very excited to have my first professional project. It was mostly a lot of HTML/CSS work, with a little JS for some content tabs up top and a position indicator while scrolling. It was a not a very complicated build, but I was very careful to make sure everything was bulletproof.
+
+				I was lucky to have the help of BKWLD's senior art director at the time, Chad Tafolla (http://tafol.la/). He reviewed all of my design work and pushed me much further than I'd gone before.
+
+				The website has since been upgraded.
+
+
+			wordpress theme
+			bkwld -> bahram akradi
+			(?) july 2010 - august 2010
+
+			mobile apps
+			ground(ctrl) -> various (external & internal)
+			september 2010 - december 2012
+
+				The bulk of my time at ground(ctrl) was spent developing mobile applications with JavaScript in the Titanium framework. But, to my eternal regret, I wasn't thinking about portfolios and didn't collect screenshots of any of them. As of now, most apps have been upgraded or deprecated since I first built them, and my work can no longer be found.
+
+				I was hired with zero JS experience, but they knew that, and gave me time to work things through. I was lucky to have the help of senior developer (now CTO) Vincent Franco (http://www.freshivore.net/) and Robert Reinhard (now BKWLD CTO) to answer my development questions and help guide me in the right direction.
+
+				I built 4 major apps during my time with g(c):
+
+				ground(ctrl) app - An app for all of the clients using ground(ctrl)'s fansite service, this app had a user dashboard (with private messages, friend requests, wall comments, and merchandise order history), event list, news list, and media galleries. There were also financial reports and willcall lists for admin-level users.
+
+				FFFest app 2011 & 2012 - An app for fans attending the music festival Fun Fun Fun Fest in Austin, TX. It had daily schedules (including a personal schedule builder), festival information, ticket purchases, and of course a taco truck locator.
+
+				Queue app - An app for another aspect of ground(ctrl)'s business, venue management. The Queue app allowed venues to track their event finances live, manage guest lists and willcall lists, and even scan tickets into the event. This app was used at the FFFFest gates and had over 14,000 succesful scans in 2011 and 16,000 scans in 2012. This app was particularly thrilling for me, because I flew down to the event and managed the volunteers scanning at the entrance gate. It was terrifying to see crowds of people all relying on my app to let them in, but deeply gratifying when we pulled it off.
+
+				LPU app - Similar to the general ground(ctrl) app, but rebuilt to be for a single artist. The app was developed as a framework, so that it could be re-used for any clients who wanted their own custom apps.
+
+
+
+			web app
+			ground(ctrl) -> rsrv (internal)
+			(?) feburary 2012 - may 2012
+
+				The RSRV app was an internal project for ground(ctrl). I had just learned PHP, and this assignment was given to me as a chance to build my own app front to back, both server-side PHP and client-side JS simultaneously.
+
+				RSRV is a room reservation system for ground(ctrl), BKWLD, and Artery Recordings who had all leased a building together. Between the three companies there were 4 conference rooms, some shared and some exclusive to one company or another. We wanted employees to be able to book the appropriate rooms, invite guests to meetings, all the usual stuff.
+
+				Why didn't we just use an existing solution? We also wanted an iPad as a kiosk outside each room, displaying whether the room was currently available and the schedule for the day. The iPads would also let people quickly reserve the room on the fly.
+
+				I used the CodeIgniter PHP framework with a MySQL database for the backend and the Bootstrap framework with vanilla JS modules for the front end UI. The iPads ran a heavy-client mobile web site that talked to the backend through a JSON API.
+
+				It took 4 months to build, and it wasn't feature complete (would have been nice to figure out the ICS format for third-part calendar integration), but it only had 1 minor bug report after release.
+
+
+
+			geometry
+			self -> connect the dots
+			?
+
+				Connect the dots came out somewhat accidentally. I was experimenting with the PaperJS library, and exploring patterns within a geometric figure known as the Flower of Life (http://en.wikipedia.org/wiki/Flower_of_Life).
+
+				In nature, circle packing tends to form hexagons (this is the most dense possible pattern). I packed a screen with circles and allowed creating connections between them with clicking and/or dragging.
+
+				It's essentially a simple polygon tool on an isometric grid.
+
+				Visit project (http://knickknacks.originalburn.com/originals/connect_the_dots_graph.html)
+
+
+
+			prototype
+			collab -> gclass (with team for bob)
+			spring quarter
+
+			sharepoint master pages
+			quorum review
+			july 2013 - august 2013
+
+				The SharePoint master pages were built for the internal use of Quorum Review. Their IT department has spearheaded the use of SharePoint for department and team projects and document sharing.
+
+				I was tasked with creating a custom theme for their SharePoint site that would kick up the good looks and streamline their workflow. I spent the first few weeks learning about SharePoint, its master pages, and how Quorum used the tool day to day.
+
+				I ended up creating a custom master page for the IT department's use, as well as a custom master page for general company use (as other departments were going to start adopting the tool). I worked closely with users to make sure I hadn't cut any crucial features, and that the my changes enhanced usability.
+
+
+
+			prototype
+			collab -> gclass (with erika for bob)
+			september 2013
+
+			prototype
+			collab -> studysesh (for info 380) (with daniel & sean)
+			september 2013 - december 2013
+
+				The studysesh project was a quarter-long endeavor for the INFO 360 class at UW. I was placed on a team with Sean Allen and Daniel Huie. We worked throughout the quarter to identify a problem space, ideate solutions, conduct user research, build prototypes, conduct user testing, and continue refining our prototypes. 
+
+				We decided to address study buddy troubles, and ended up persuing my solution, a website for students to create group study sessions. We finished the quarter with a promotional video, product spec, and individual process books. We all shared the copywriting, Daniel created the video, Sean assembled the spec, and I myself built the final prototype (using the Bootstrap framework).
+
+				View prototype
+				View process book
+				View spec (PDF)
+				View video
+
+
+
+			geometry
+			self -> flocking (for info 343)
+			november 2013
+
+				The flocking project was something I'd been noodling with in my head, until an assignment in INFO 343 at UW kicked me into action. I wanted to simulate bird flocking patterns, and we were told to make an interactive game using plain JS (no third-party libraries or frameworks).
+
+				Thanks to Craig Reynolds and his work with Boids (http://www.red3d.com/cwr/boids/), I learned that bird flocking can be boiled down to three simple rules: Seperation (steer to avoid crowding local flockmates), Alignment (steer towards the average heading of local flockmates), and Cohesion (steer to move toward the average position of local flockmates).
+
+				I used HTML/CSS to draw the bird dots, and JS to create the elements and steer them around the screen (using simple 2D vector math). The breakthrough came when Graeme Britz pointed out I could add the vectors and then normalize the result, so that the heading changes without affecting the velocity.
+
+				I made clicking the cursor toggle through neutral, attract, and repel, for bird chasing funtimes. Um, if the birds are making an infinite river of death, zoom out your browser a couple notches to give them more wiggle room.
+
+				Visit project (http://pages.originalburn.com/flock.html)
+
+
+
+			prototype
+			collab -> quotes (with graham)
+			? nov, dec 2013
+
+				The quotes project is a collaboration between me and Graeme Britz, a UW CSE student. One day we got to talking and realized we had a lot of spooky similarities, including the shared desire to build a web app for holding great quotes. There are many wise words by many people, and we wanted a place we could save those words and come back to them. Maybe even learn from them.
+
+				Since we both wanted to build a quotes app, and we're both interested in web design &amp; development, we decided to create one together. We also decided to use the project as an opportunity for learning AngularJS... which has turned out to be a lot more complicated than we realized (but people like this http://stackoverflow.com/a/15012542 are helping us learn).
+
+				We're using the Bootstrap framework for fast prototyping with a solid, responsive grid system and convenient UI components.
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+		
+		<div class="page-header">
+			<a target="_blank" class="btn btn-default pull-right" href="files/Alex_Burner_Resume_2014.pdf">
+				View resume (PDF)
+			</a>
+			<h2>Work samples</h2>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#quotesCollapse">
+					<div class="date hidden-xs">
+						Nov 2013 - Present
+					</div>
+					<h3 class="panel-title">
+						[ collaboration ]
+						<small>
+							&nbsp;&mdash;&nbsp;
+							prototype
+							:
+							<em>
+								quotes
+							</em>
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="quotesCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/quotes1.png" title="quotes - discover" target="_blank">
+								<img class="img-responsive" src="img/quotes1.png">
+							</a>
+							<a href="img/quotes2.png" title="quotes - quotes" target="_blank">
+								<img class="img-responsive" src="img/quotes2.png">
+							</a>
+							<a href="img/quotes3.png" title="quotes - tags" target="_blank">
+								<img class="img-responsive" src="img/quotes3.png">
+							</a>
+							<a href="img/quotes4.png" title="quotes - new quote" target="_blank">
+								<img class="img-responsive" src="img/quotes4.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								The quotes project is a collaboration with <a target="_blank" href="http://graemebritz.com/" title="website of Graeme Britz">Graeme Britz</a>, a fellow UW student. One day we realized we both had the same idea for a web app that could hold great quotes. There are many wise words by many people, and we wanted a place we could save those words and come back to them. Maybe even learn from them.
+							</p>
+							<p>
+								We decided to create an app together. We also decided to use the project as an opportunity for learning the AngularJS framwork. Angular has turned out to be deeper water than we realized, but people like <a target="_blank" href="http://stackoverflow.com/a/15012542" title="stackoverflow - How do I think in AngularJS if I have a jQuery background?">this fellow</a> are helping us learn.
+							</p>
+							<p>
+								We're using the Bootstrap framework for fast prototyping with a solid, responsive grid system and convenient UI components.
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#studyseshCollapse">
+					<div class="date hidden-xs">
+						Sep 2013 - Dec 2013
+					</div>
+					<h3 class="panel-title">
+						UW INFO 360
+						<small>
+							&nbsp;&mdash;&nbsp;
+							prototype
+							:
+							<em>
+								studysesh
+							</em>
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="studyseshCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/studysesh1.png" title="studysesh - find" target="_blank">
+								<img class="img-responsive" src="img/studysesh1.png">
+							</a>
+							<a href="img/studysesh2.png" title="studysesh - session detail" target="_blank">
+								<img class="img-responsive" src="img/studysesh2.png">
+							</a>
+							<a href="img/studysesh3.png" title="studysesh - create session" target="_blank">
+								<img class="img-responsive" src="img/studysesh3.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								The studysesh project was a quarter-long endeavor for the UW INFO 360 class, Design Thinking. I was placed on a team with Sean Allen and Daniel Huie. We worked throughout the quarter to identify a problem space, ideate solutions, conduct user research, build prototypes, conduct user testing, and continue refining our solution. 
+							</p>
+							<p>
+								We decided to address student study troubles, and ended up persuing my concept: a website for students to find or create group study sessions. The final projects were a promotional video, product spec, and individual process books. We all shared the copywriting, Daniel created the video, Sean assembled the spec, and I built the final prototype (using the Bootstrap framework).
+							</p>
+							<a class="btn btn-default" target="_blank" href="http://pages.originalburn.com/studysesh/find.html">
+								Visit the prototype
+							</a>
+							<br>
+							<a class="btn btn-default" target="_blank" href="http://pages.originalburn.com/studysesh-processbook/">
+								Visit my process book
+							</a>
+							<br>
+							<a class="btn btn-default" target="_blank" href="files/360spec.pdf">
+								View spec (PDF)
+							</a>
+							<br>
+							<a class="btn btn-default" target="_blank" href="https://www.youtube.com/watch?v=zCQvvi5Fyt8">
+								View video
+							</a>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#flockingCollapse">
+					<div class="date hidden-xs">
+						Nov 2013
+					</div>
+					<h3 class="panel-title">
+						UW INFO 343
+						<small>
+							&nbsp;&mdash;&nbsp;
+							geometry
+							:
+							<em>
+								flocking
+							</em>
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="flockingCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/flocking.png" title="flocking" target="_blank">
+								<img class="img-responsive" src="img/flocking.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								This project was completed for the UW INFO 343 class, Web Technologies. We were told to make an interactive game using plain JS (no third-party libraries or frameworks). I had been considering simulating bird flocking patterns, and used this assignment as an opportunity.
+							</p>
+							<p>
+								Thanks to Craig Reynolds and his work with <a target="_blank" href="http://www.red3d.com/cwr/boids/" title="Boids">Boids</a>, I learned that basic bird flocking can be distilled into three rules: <strong>seperation</strong> (steer to avoid crowding local flockmates), <strong>alignment</strong> (steer towards the average heading of local flockmates), and <strong>cohesion</strong> (steer to move toward the average position of local flockmates).
+							</p>
+							<p>
+								I used HTML/CSS to draw the bird dots, and I used JS to create the bird elements and steer them around the screen (using 2D vector math). Clicking the cursor toggles through neutral, attract, and repel.
+							</p>
+							<p>
+								Sidenote: if the birds are forming an infinite river of death, you can zoom out your browser window to give them more room. 
+							</p>
+							<a class="btn btn-default" target="_blank" href="http://pages.originalburn.com/flock.html">
+								Visit the project
+							</a>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#quorumCollapse">
+					<div class="date hidden-xs">
+						Jul 2013 - Aug 2013
+					</div>
+					<h3 class="panel-title">
+						Quorum Review
+						<small>
+							&nbsp;&mdash;&nbsp;
+							SharePoint Master pages
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="quorumCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/quorum1.png" title="Quorum Review - IT theme" target="_blank">
+								<img class="img-responsive shadow" src="img/quorum1.png">
+							</a>
+							<a href="img/quorum2.png" title="Quorum Review - general theme" target="_blank">
+								<img class="img-responsive shadow" src="img/quorum2.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								The SharePoint master pages were built for the internal use of Quorum Review. Their IT department has spearheaded the use of SharePoint for department and team projects and document sharing.
+							</p>
+							<p>
+								I was tasked with creating a custom theme for their SharePoint site that would streamline their workflow and improve aesthetics. I spent the first few weeks learning about SharePoint and its master pages, while concurrently conducting interviews and observational studies to determine how Quorum used the tool day-to-day.
+							</p>
+							<p>
+								Finally, I created a custom master page for the IT department's use, as well as a custom master page for general company use (other departments and teams were going to start adopting the tool). I worked closely with users to make sure I hadn't cut any crucial features, and that the my changes enhanced usability.
+							</p>
+							<p>
+								Note: some screenshot content has been blocked for confidentiality reasons.
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#connectCollapse">
+					<div class="date hidden-xs">
+						Nov 2012
+					</div>
+					<h3 class="panel-title">
+						[ personal ]
+						<small>
+							&nbsp;&mdash;&nbsp;
+							geometry
+							:
+							<em>
+								connect the dots
+							</em>
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="connectCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/connect1.png" title="connect1" target="_blank">
+								<img class="img-responsive" src="img/connect1.png">
+							</a>
+							<a href="img/connect2.png" title="connect2" target="_blank">
+								<img class="img-responsive" src="img/connect2.png">
+							</a>
+							<a href="img/connect3.png" title="connect3" target="_blank">
+								<img class="img-responsive" src="img/connect3.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								Connect the dots came about while I was experimenting with geometry using the PaperJS library, and exploring patterns within a figure known as the <a target="_blank" href="http://en.wikipedia.org/wiki/Flower_of_Life" title="Wikipedia - Flower of Life">Flower of Life</a>.
+							</p>
+							<p>
+								In nature, packed circles tend to form hexagons (the densest possible configuration). I packed a screen with circles and allowed creating connections between their centers with clicking and/or dragging. It's essentially a simple polygon drawing tool on an isometric grid.
+							</p>
+							<p>
+								Sidenote: zoom your browser in/out and refresh to draw a new grid at any size.
+							</p>
+							<a class="btn btn-default" target="_blank" href="http://knickknacks.originalburn.com/originals/connect_the_dots_graph.html">
+								Visit the project
+							</a>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#rsrvCollapse">
+					<div class="date hidden-xs">
+						Feb 2012 - May 2012
+					</div>
+					<h3 class="panel-title">
+						ground(ctrl)
+						<small>
+							&nbsp;&mdash;&nbsp;
+							web app
+							:
+							<em>
+								RSRV
+							</em>
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="rsrvCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/rsrv1.png" title="rsrv - calendar" target="_blank">
+								<img class="img-responsive" src="img/rsrv1.png">
+							</a>
+							<a href="img/rsrv2.png" title="rsrv - event" target="_blank">
+								<img class="img-responsive" src="img/rsrv2.png">
+							</a>
+							<a href="img/rsrv3.png" title="rsrv - create event" target="_blank">
+								<img class="img-responsive" src="img/rsrv3.png">
+							</a>
+							<a href="img/rsrv4.png" title="rsrv - kiosk" target="_blank">
+								<img class="img-responsive" src="img/rsrv4.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								The RSRV app was an internal project for ground(ctrl). I had been learning PHP on top of my JS work, and this assignment was given to me as a chance to build my own app front to back, both server-side PHP and client-side JS simultaneously.
+							</p>
+							<p>
+								RSRV is a room reservation system for ground(ctrl), BKWLD, and Artery Recordings, who had all leased a building together. Between the three companies there were 4 conference rooms&mdash;some shared and some exclusive to one company or another. We wanted employees to be able to book the appropriate rooms, invite guests to meetings, all of the standard event management features.
+							</p>
+							<p>
+								Why didn't we use an existing solution? We also wanted an iPad as a kiosk outside each room, showing whether the room was currently available, the schedule for the day, and a quick event creation tool for reserving on the fly.
+							</p>
+							<p>
+								I used the CodeIgniter PHP framework with a MySQL database for the backend and the Bootstrap framework with vanilla JS modules for the front end UI. The iPads ran a heavy-client mobile web site that talked to the backend through a JSON API.
+							</p>
+							<p>
+								Note: some screenshot content has been blocked for confidentiality reasons.
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#groundCollapse">
+					<div class="date hidden-xs">
+						Sep 2010 - Dec 2012
+					</div>
+					<h3 class="panel-title">
+						ground(ctrl)
+						<small>
+							&nbsp;&mdash;&nbsp;
+							mobile apps
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="groundCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/sad.gif" title="sadness" target="_blank">
+								<img class="img-responsive shadow" src="img/sad.gif">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								The bulk of my time at ground(ctrl) was spent developing mobile applications with JavaScript in the Titanium framework. But, to my eternal regret, I wasn't thinking about portfolios and didn't collect screenshots of any of my mobile work. As of now, most apps have been upgraded or deprecated since I first built them, and my work can no longer be found. I can still talk a bit about them.
+							</p>
+							<p>
+								I built 4 major mobile apps during my employment:
+							</p>
+							<p>
+								<strong>ground(ctrl) app</strong> - An app for all of the clients using ground(ctrl)'s fansite service, this app had a user dashboard (with private messages, friend requests, wall comments, and merchandise order history), event list, news list, and media galleries. There were also financial reports and willcall lists for admin-level users.
+							</p>
+							<p>
+								<strong>FFFest app 2011 &amp; 2012</strong> - An app for fans attending the music festival Fun Fun Fun Fest in Austin, TX. It had daily schedules (including a personal schedule builder), festival information, ticket purchases, and of course a taco truck locator.
+							</p>
+							<p>
+								<strong>Queue app</strong> - An app for another aspect of ground(ctrl)'s business, venue management. The Queue app allowed venues to track their event finances live, manage guest and willcall lists, and even scan tickets into the event. This app was used at the FFFFest gates and had over 14,000 succesful scans in 2011 and 16,000 scans in 2012. This app was particularly thrilling for me, because I  flew down to the event and managed the volunteers scanning at the entrance gate. It was terrifying to see crowds of people all relying on my app to let them in, but deeply gratifying when we pulled it off.
+							</p>
+							<p>
+								<strong>LPU app</strong> - Similar to the general ground(ctrl) app, but rebuilt to be for a single artist. The app was developed as a framework, so that it could be re-used for any clients who wanted their own custom apps. And it had one of those side-sliding menu drawers that were all the rage.
+							</p>
+							<p>
+								I was hired with minimal JS experience, but they were willing to give me the time to learn. I was lucky to have the help of senior developers <a target="_blank" href="https://github.com/weotch" title="GitHub - Robert Reinhard">Robert Reinhard</a> (who was overseeing my work) and <a target="_blank" href="https://github.com/vinniefranco" title="GitHub - Vincent Franco">Vincent Franco</a> (who was building backend APIs for me to use) to answer my development questions and help guide me in the right direction.
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#elasticCollapse">
+					<div class="date hidden-xs">
+						Jul 2010
+					</div>
+					<h3 class="panel-title">
+						Elastic Suite
+						<small>
+							&nbsp;&mdash;&nbsp;
+							website
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="elasticCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/elastic.png" title="elastic - full" target="_blank">
+								<img class="img-responsive shadow" src="img/elastic.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								The Elastic Suite website was my first major project while I was interning at BKWLD. Their company had a brochure/informational website split across a home page and a few subpages. They wanted to bring it all together into a single scroller, inspired by the site for the <a target="_blank" href="http://www.kaleidoscopeapp.com/" title="Kaleidoscope">Kaleidescope app</a> (which, as of the time of this writing, looks essentially the same).
+							</p>
+							<p>
+								I was very excited to have my first professional project. It was mostly HTML/CSS work, with a little JS for some content tabs up top and a position indicator while scrolling. It was a not a very complicated build, but I was very careful to make sure everything was bulletproof.
+							</p>
+							<p>
+								I was lucky to have the help of BKWLD's senior art director at the time, <a target="_blank" href="http://tafol.la/" title="website of Chad Tafolla">Chad Tafolla</a>. He reviewed all of my design work and pushed me much further than I'd gone before.
+							</p>
+							<p>
+								The website has since been changed.
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<a href="#" data-toggle="collapse" data-target="#rainierCollapse">
+					<div class="date hidden-xs">
+						Nov 2009 - Feb 2010
+					</div>
+					<h3 class="panel-title">
+						Rainier Productions
+						<small>
+							&nbsp;&mdash;&nbsp;
+							website
+						</small>
+					</h3>
+				</a>
+			</div>
+			<div id="rainierCollapse" class="panel-collapse collapse">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6 col-lg-8">
+							<a href="img/rainier1.png" title="rainier - splash" target="_blank">
+								<img class="img-responsive" src="img/rainier1.png">
+							</a>
+							<a href="img/rainier2.png" title="rainier - about" target="_blank">
+								<img class="img-responsive" src="img/rainier2.png">
+							</a>
+							<a href="img/rainier3.png" title="rainier - services" target="_blank">
+								<img class="img-responsive" src="img/rainier3.png">
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<p>
+								The Rainier Productions website was my first professional web project, and my inspiration for moving into the web dev industry. A friend from NYC had a small start up idea that needed a website, and I had recently been doing graphic design.
+							</p>
+							<p>
+								I designed the company branding and site UI, but didn't have the technical chops to turn Photoshop layers into HTML/CSS. We had to hire another freelancer to cut up the images and embed them in HTML.
+							</p>
+							<p>
+								A few months later, after online tutorials and taking a class at a local community college, I had what I needed to rewrite his site so it was real HTML&mdash;instead of a bunch of sliced-up JPGs (shudder).</p>
+							<a class="btn btn-default" target="_blank" href="http://rainierproduction.com/">
+								Visit the site
+							</a>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		// prevent default event for twbs collapse links
+		// https://github.com/twbs/bootstrap/issues/2001
+		$("a[data-toggle=collapse]").on('click', function (e) { e.preventDefault(); });
+	</script>
+</body>
+</html>

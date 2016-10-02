@@ -1,0 +1,192 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Alex Burner</title>
+	<meta name="author" content="Alex Burner">
+	<meta name="description" content="Hello, these are some words about me.">
+	<meta name="viewport" content="width=device-width, initial-scale=0.3">
+	<link rel="icon" type="image/ico" href="http://alexburner.com/favicon.ico">
+	<style type="text/css">
+		html {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			margin: 0;
+			padding: 120px 120px 240px;
+			background-color: #222;
+			font-family: "Helvetica Neue", Helvetica, sans-serif;
+		}
+		img {
+			display: none;
+			position: fixed;
+			top: 0; 
+			left: 0;
+			z-index: -100;
+		}
+		h1 {
+			padding: 0;
+			margin: 0 0 24px;
+			font-size: 48px;
+			font-weight: bold;
+			color: #6F9;
+		}
+		p {
+			width: 800px;
+			padding: 0;
+			margin: 0 0 48px;
+			font-size: 24px;
+			font-weight: bold;
+			color: #FFF;
+		}
+		a {
+			color: #FFF;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #F00;
+		}
+	</style>
+</head>
+<body>
+	<img id="background" src="img/bg.jpg" />
+	<p>
+		Hello, these are some words about me.<br>
+		More other things at <a href="http://originalburn.com">originalburn.com</a>
+	</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<h1>who</h1>
+	<p>
+		My name is Alex Burner. I have been to<br>
+		a handful of schools and held a handful<br>
+		of jobs. I was working for <a href="http://groundctrl.com/">ground(ctrl)</a> but<br>
+		now I attend the <a href="https://www.washington.edu/">University of Washington.</a><br>
+		No matter the work or title, I still consider<br>
+		myself a student. I will be done learning<br>
+		when I am six feet underground.<br>
+	</p>
+	<h1>what</h1>
+	<p>
+		Most of my time is spent poking in dusty<br>
+		corners and wondering how things all fit<br>
+		together. I enjoy noodling around with web<br>
+		design &amp; development, geometry, physics,<br>
+		philosophy, and photography. I am rooted<br>
+		in systems design, information architecture,<br>
+		user experience, identity, and sustainability.
+	</p>
+	<h1>why</h1>
+	<p>
+<!-- 
+		The world isn't perfect. That might look like a curse, but it could also be a blessing.
+		If everything was perfect, what would there be left for us to do?
+
+
+
+
+		the world isn't perfect. but 
+		if everything was perfect, 
+		if every problem was solved,
+		if every hunger was filled,
+		what would be left for us to do?
+		better with some mess & mystery
+		idle hands want for good work and 
+		there will always be work ready
+ -->
+		The world is not perfect. But if everything was<br>
+		perfect&mdash;if every problem was solved, if every<br>
+		hunger was filled&mdash;what would be left for us?<br>
+		Better with some mess &amp; mystery. Idle hands<br>
+		itch for good work to do, and there is always<br>
+		more work waiting to be done. Every time is<br>
+		a chance to do better as we endlessly dance<br>
+		with our golden balance of harmony.<br>
+<!--
+
+
+
+		There is always work waiting
+
+		fisics ~ 	There is always "potential" available for "work" in a system,
+					ergo there is an endless potential waiting to be realized.
+
+
+
+
+		it as a curse, but it could also be a blessing. 
+		If everything was perfect, what would be 
+		left for us to do? More fun with a little
+		mess &amp; mystery. Every day, each moment,
+		is more complicated than the one before.
+		And we can always do more, approaching our golden mean of harmony.
+		With<br>
+		perfection, what's left for us to do? More fun<br>
+		to have a little mess and mystery. Every day is a little more<br>
+		complicated and we can always do better,<br>
+		approaching our golden mean of harmony.
+-->
+
+	</p>
+	<h1>when</h1>
+	<p>
+		Creation is a fusion of forces, needing both<br>
+		flashes of inspiration and stretches of grind.<br>
+		Some great work can be done taking a shower<br>
+		or getting a fresh breath outdoors. Eventually,<br>
+		every idea gem needs to be cut and polished<br>
+		and packaged and distributed. So the when<br>
+		is a blend between dreaming and doing.<br>
+	</p>
+	<h1>where</h1>
+	<p>
+		I grew up in the suburbs of Washington.<br>
+		I have lived in cities like New York, NY and<br>
+		towns like Pullman, WA. Currently I am living<br>
+		in Seattle, WA. I enjoy good balance between <br>
+		urban and nature. I will work remotely from<br>
+		anywhere, but I always respect the warmth<br>
+		and power of meeting someone in person.<br>
+	</p>
+	<h1>how</h1>
+	<p>
+		Obsessiveness. Restlessness.<br>
+		A stubborn refusal to grow up.<br>
+		Cynicism for the big picture.<br>
+		But eternal hope anyways.<br>
+	</p>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
+	<script>
+		( function ( $ ) {
+			$( document ).ready( function () {
+				var $bg  = $( '#background' );
+				var $win = $( window );
+				var fitBox = function ( $img, $box ) {
+					var imgW = $img.width();
+					var imgH = $img.height();
+					var imgR = imgW / imgH;
+					var boxW = $box.width();
+					var boxH = $box.height();
+					var boxR = boxW / boxH;
+					if ( imgR > boxR ) {
+						$img.width( 'auto' );
+						$img.height( boxH );
+					} else {
+						$img.width( boxW );
+						$img.height( 'auto' );
+					}
+				};
+				$win.load( function () {
+					fitBox( $bg, $win );
+					$bg.fadeIn( 1000 );
+				} );
+				$win.resize( function () {
+					fitBox( $bg, $win );
+				} );
+			} );
+		} )( jQuery );
+	</script>
+</body>
+</html>
