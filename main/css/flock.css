@@ -1,0 +1,98 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+body {
+	background-color: #222;
+}
+#container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.bird {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.flesh {
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	margin-top: -2px;
+	margin-left: -2px;
+	border-radius: 20px;
+	/*background: rgba(0, 0, 0, 1);*/
+	/*background: white;*/
+}
+.spacebubble {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -20px;
+	border-radius: 100px;
+	/*background: rgba(255, 255, 255, 0.05);*/
+	border: 1px solid #EEE;
+}
+.neighborhood {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+	border-radius: 500px;
+	/*background: rgba(0, 0, 0, 0.01);*/
+	/*border: 1px solid #EEE;*/
+}
+.neutral {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	z-index: 1000;
+	top: -1000px;
+	left: -1000px;
+	margin-top: -10px;
+	margin-left: -10px;
+	border-radius: 50px;
+	background: #CCC;
+}
+.threat {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	z-index: 1000;
+	top: -1000px;
+	left: -1000px;
+	margin-top: -10px;
+	margin-left: -10px;
+	border-radius: 50px;
+	background: #F00;
+}
+.food {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	z-index: 1000;
+	top: -1000px;
+	left: -1000px;
+	margin-top: -10px;
+	margin-left: -10px;
+	border-radius: 50px;
+	background: #0F0;
+}
